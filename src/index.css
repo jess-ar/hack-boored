@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff; 
+    --foreground: #1a202c; 
+    --card: #d4cfd8; 
+    --card-foreground: #1a202c; 
+    --primary: #7A51EC; 
+    --secondary: #79B651;
+    --primary-foreground: #ffffff;
+    --border: #e2e8f0; 
+  }
+
+  .dark {
+    --background: #171717; 
+    --foreground: #e2e8f0;
+    --card: #2d3748;
+    --card-foreground: #e2e8f0;
+    --primary: #7A51EC;
+    --secondary: #79B651;
+    --primary-foreground: #171717;
+    --border: #4a5568; 
+  }
+
+  @layer base {
+    body {
+      @apply bg-background text-foreground;
+      font-family: "Poppins", sans-serif; 
+    }
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  * {
+    @apply border-border;
+  }
+}
