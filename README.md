@@ -2,31 +2,42 @@
 
 Web application developed for the Occupy 2024 **Hackathon** that shows activities to do in moments of boredom, with personalised filters.
 
-## 🔧 Prerequisites
+## 📋 Table of Contents
+1. [Prerequisites](#-prerequisites)
+2. [Installation](#-installation)
+3. [Technologies Used](#-technologies-used)
+4. [Starting the Project](#-starting-the-project)
+5. [Features](#-features)
+6. [Screenshots](#-screenshots)
+7. [Contributing](#-contributing)
+8. [Contact](#-contact)
 
-1. [Node.js](https://nodejs.org/)
 
-## 🛠 Installation
+1. ## 🔧 Prerequisites
 
-1. **Clone this repository:** 
+ [Node.js](https://nodejs.org/)
+
+2. ## 🛠 Installation
+
+**Clone this repository:** 
 
 ```bash
    git clone https://github.com/jess-ar/hack-boored.git
 ```
 
-2. **Access the project:**
+ **Access the project:**
 
 ```bash
    cd react-hack-boored
 ```
 
-3. **Install the dependencies:**
+ **Install the dependencies:**
 
 ```bash
    npm install
 ```
 
-## 📦Technologies Used
+3. ## 📦Technologies Used
 This project utilizes the following technologies:
 
 - **React**: Library for building user interfaces.
@@ -34,7 +45,7 @@ This project utilizes the following technologies:
 - **Axios**: Library for making asynchronous HTTP requests.
 - **Bored API**: API that provides activities to do when bored.
 
-## 🚀 Starting the Project
+4. ## 🚀 Starting the Project
 
 - **Development:**
 
@@ -43,11 +54,32 @@ This project utilizes the following technologies:
 ```
    Use this command to start the development server. The server will automatically reload 	when changes are detected in your code.
 
+5. ## ✨ Features
 
-## 🖼 Screenshots
+- Filter activities by category (Social, Education, Charity, etc.).
+- Generates random activities when no filter is selected.
+- Responsive design for both mobile and desktop devices.
+- Light and dark mode support.
+
+6. ## 🖼 Screenshots
+![DESKTOP-LIGHT](public/desktop-light.png)
+![DESKTOP-DARK](public/desktop-dark.png)
+![MOBILE-LIGHT](public/mobile-light.png)
+![MOBILE-DARK](public/mobile-dark.png)
 
 
-### 🎉 That's all, folks!
+7. ## 🤝 Contributing
+
+Contributions are more than welcome! If you have suggestions for improvements, new features, or if you spot any bugs, feel free to open an issue or submit a pull request.
+
+### Steps to Contribute:
+1. **Fork the Repository**
+2. **Create your Feature Branch**
+   ```bash
+   git checkout -b feature/AmazingFeature
+
+
+8. ### 🎉 That's all, folks!
 
 Thanks for checking out this project! If you enjoyed it, feel free to give it a ⭐️ on GitHub and follow me for more awesome projects!
 

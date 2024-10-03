@@ -49,14 +49,12 @@ const Navbar = () => {
     return (
         <nav className="px-5 pt-5" style={{ boxShadow: "var(--shadow-custom)" }}>
             <div className="flex items-center justify-between">
-                {/* Logo */}
                 <div className="flex items-center space-x-3">
                     <button onClick={handleLogoClick} className="h-10">
                         <img src="/logo.svg" alt="logo" className="w-[100px] text-primary" style={{ filter: 'brightness(0) saturate(100%) invert(40%) sepia(83%) saturate(434%) hue-rotate(70deg) brightness(98%) contrast(92%)' }} />
                     </button>
                 </div>
 
-                {/* Navigation Links */}
                 <div className="hidden space-x-8 lg:flex">
                     {navlinks.map((item) => (
                         <NavLink key={item.name} to={item.to} className="hover:text-primary">
@@ -65,7 +63,6 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                {/* Theme Toggle Button */}
                 <div className="flex items-center space-x-4">
                     <button
                         className="px-4 py-2 text-xs text-white transition-colors bg-green-600 rounded-lg sm:text-sm hover:bg-green-500"
