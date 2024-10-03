@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Button from '@/components/buttons/Button'; // Importamos el botón personalizado
+import Button from '@/components/buttons/Button';
 
 const filters = ['Social', 'Educació', 'Caritat', 'Cuinar', 'Relaxació', 'Treball intens'];
 
