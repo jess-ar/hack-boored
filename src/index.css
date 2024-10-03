@@ -4,26 +4,27 @@
 
 @layer base {
   :root {
-    --background: #ffffff; 
-    --foreground: #1a202c; 
-    --card: #d4cfd8; 
-    --card-foreground: #1a202c; 
-    --primary: #7A51EC; 
+    --background: #ffffff;
+    --foreground: #1a202c;
+    --card: #b9daaa;
+    --card-foreground: #1a202c;
+    --primary: #7A51EC;
     --secondary: #79B651;
     --primary-foreground: #ffffff;
-    --border: #e2e8f0; 
+    --border: #e2e8f0;
   }
 
   .dark {
-    --background: #171717; 
+    --background: #060000;
     --foreground: #e2e8f0;
-    --card: #2d3748;
-    --card-foreground: #e2e8f0;
-    --primary: #7A51EC;
-    --secondary: #79B651;
+    --card: #637c53;
+    --card-foreground: #e2e8f0; 
+    --primary: #7A51EC; 
+    --secondary: #79B651; 
     --primary-foreground: #171717;
-    --border: #4a5568; 
+    --border: #131313; 
   }
+
 
   @layer base {
     body {
@@ -39,4 +40,24 @@
   * {
     @apply border-border;
   }
+}
+
+.bg-card {
+  background-color: var(--card);
+}
+
+.text-card-foreground {
+  color: var(--card-foreground);
+}
+
+.border-border {
+  border-color: var(--border);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-primary-foreground {
+  color: var(--primary-foreground);
 }
